@@ -8,7 +8,8 @@
   --hue-color: 250;
   /*Purple 250 - Green 142 - Blue 230 - Pink 340*/
   /* HSL color mode */
-  --first-color: hsl(var(--hue-color), 69%, 61%);
+  /* --first-color: hsl(var(--hue-color), 69%, 61%); */
+  --first-color: blue;
   --first-color-second: hsl(var(--hue-color), 69%, 61%);
   --first-color-alt: hsl(var(--hue-color), 57%, 53%);
   --first-color-lighter: hsl(var(--hue-color), 92%, 85%);
@@ -137,7 +138,7 @@ img {
 .section__title {
   font-size: var(--h1-font-size);
   color: var(--title-color);
-  margin-bottom: var(--mb-3)
+  margin-bottom: var(--mb-3);
 }
 
 /* .section__subtitle {
@@ -399,8 +400,8 @@ img {
 .about__img {
   width: 200px;
   border-radius: 0.5rem;
-  justify-self: center;
-  align-self: center;
+  justify-self: start;
+  align-self: start;
 }
 
 .about__description {
