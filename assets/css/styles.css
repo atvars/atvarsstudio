@@ -645,17 +645,24 @@ img {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
 }
 
-.services__icon {
+.services__type {
   display: block;
   font-size: 1.5rem;
   color: var(--first-color);
   margin-bottom: var(--mb-1);
+  font-style: italic;
 }
 
 .services__title {
   font-size: var(--h3-font-size);
   margin-bottom: var(--mb-1);
   font-weight: var(--font-medium);
+  font-style: italic;
+  color: gray;
+}
+
+.price {
+  color: blue;
 }
 
 .services__button {
@@ -703,6 +710,22 @@ img {
   font-size: var(--h3-font-size);
   font-weight: var(--font-medium);
   margin-bottom: var(--mb-1-5);
+  color: blue;
+  font-style: italic;
+}
+
+.services__modal_add_ons {
+  font-size: var(--h3-font-size);
+  font-weight: var(--font-medium);
+  margin-bottom: var(--mb-1-5);
+  margin-top: var(--mb-1-5);
+  color: blue;
+  font-style: italic;
+}
+
+.extra_modal_text {
+  color: gray;
+  font-size: var(--small-font-size);
 }
 
 .services__modal-close {
@@ -714,9 +737,20 @@ img {
   cursor: pointer;
 }
 
+.services__modal-icon_included {
+  color: var(--first-color);
+  margin-right: var(--mb-0-25);
+  color: green;
+}
+
+.modal_extra_text {
+  font-size: var(--smaller-font-size);
+}
+
 .services__modal-icon {
   color: var(--first-color);
   margin-right: var(--mb-0-25);
+  color: blue;
 }
 
 /* Active Modal */
