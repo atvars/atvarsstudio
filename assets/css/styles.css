@@ -826,7 +826,7 @@ img {
 }
 
 .project__bg {
-  background-color: var(--first-color-second);
+  background-color: blue;
   padding-top: 3rem;
 }
 
@@ -947,7 +947,7 @@ img {
 }
 
 .footer__bg {
-  background-color: var(--first-color);
+  background-color: blue;;
   padding: 2rem 0 3rem;
 }
 
