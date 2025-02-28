@@ -213,7 +213,7 @@ emailjs.sendForm('service_atvarsstudio', 'template_contact_form', this)
       showModal("Message Sent Successfully!"); // Call the showModal function
     }, function(error) {
       console.log('FAILED...', error);
-      showModal("Message Failed to Send."); // Call the showModal function
+      showModal("Message failed to send. Please use mobile number provided to contact me."); // Call the showModal function
     });
     document.getElementById("form").reset();
 });
