@@ -852,8 +852,8 @@ img {
 /*==================== TESTIMONIAL ====================*/
 
 .testimonial_section{
-  max-width: 70%;
-  margin:auto;
+  max-width: 100%;
+  margin: auto;
 }
 
 /*==================== CONTACT ME ====================*/
@@ -1078,10 +1078,6 @@ img {
   .project__img {
     width: 200px;
   }
-  .testimonial_section{
-    max-width: 100%;
-    margin:10px;
-  }
 }
 
 /* For medium devices */
@@ -1246,9 +1242,10 @@ img {
     margin-top: 4.5rem;
   }
   .testimonial_section{
-    max-width: 100%;
-    margin:auto;
+    width: 70%;
+    margin: auto;
   }
+
 }
 
 /* For large devices */
@@ -1291,5 +1288,9 @@ img {
   }
   .contact__inputs {
     grid-template-columns: repeat(2, 1fr);
+  }
+  .testimonial_section{
+    max-width: 80%;
+    margin: auto;
   }
 }
