@@ -204,25 +204,37 @@ themeButton.addEventListener('click', () => {
 
 
 // Send Email with emailJS
-const btn = document.getElementById("button")
+document.getElementById('form').addEventListener('submit', function(event) {
+  event.preventDefault();
 
-document.getElementById("form").addEventListener("submit", function (event) {
-  event.preventDefault()
+emailjs.sendForm('service_atvarsstudio', 'template_contact_form', this)
+    .then(function(response) {
+      console.log('SUCCESS!', response.status, response.text);
+      showModal("Message Sent Successfully!"); // Call the showModal function
+    }, function(error) {
+      console.log('FAILED...', error);
+      showModal("Message Failed to Send."); // Call the showModal function
+    });
+    document.getElementById("form").reset();
+});
 
-  btn.value = "Sending..."
+// Function to show the modal
+function showModal(message) {
+  var modal = document.getElementById("myModal");
+  var modalMessage = document.getElementById("modalMessage");
+  modalMessage.textContent = message;
+  modal.style.display = "block";
 
-  const serviceID = "service_atvarsstudio"
-  const templateID = "template_contact_form"
+  // Close the modal when the close button is clicked
+  var span = document.getElementsByClassName("close")[0];
+  span.onclick = function() {
+    modal.style.display = "none";
+  };
 
-  emailjs.sendForm(serviceID, templateID, this).then(
-    () => {
-      btn.value = "Send Email"
-      alert("Sent!")
-    },
-    (err) => {
-      btn.value = "Send Email"
-      alert(JSON.stringify(err))
-    },
-  )
-  document.getElementById("form").reset();
-})
+  // Close the modal when the user clicks outside of it
+  window.onclick = function(event) {
+    if (event.target == modal) {
+      modal.style.display = "none";
+    }
+  };
+}
