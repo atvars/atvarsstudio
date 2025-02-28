@@ -865,20 +865,20 @@
                         <div class="contact__inputs grid">
                             <div class="contact__content">
                                 <label for="" class="contact__label">Name</label>
-                                <input type="text" class="contact__input">
+                                <input type="text" class="contact__input" name="from_name">
                             </div>
                             <div class="contact__content">
                                 <label for="" class="contact__label">Email</label>
-                                <input type="email" class="contact__input">
+                                <input type="email" class="contact__input" name="from_email">
                             </div>
                         </div>
                         <div class="contact__content">
-                            <label for="" class="contact__label">Project</label>
-                            <input type="text" class="contact__input">
+                            <label for="" class="contact__label">Phone Number</label>
+                            <input type="number" class="contact__input" name="from_number">
                         </div>
                         <div class="contact__content">
                             <label for="" class="contact__label">Message</label>
-                            <textarea name="" id="" cols="0" rows="7" class="contact__input"></textarea>
+                            <textarea name="message" id="" cols="0" rows="7" class="contact__input"></textarea>
                         </div>
                         
                         <div>
@@ -946,5 +946,19 @@
         
         <!-- Testamonials -->
         <script src="https://reviewsonmywebsite.com/js/v2/embed.js?id=8ed8fd45a2fd062872f56952886c1ec5" type="text/javascript"></script>
+
+        <!-- Send Email -->
+        <script type="text/javascript"
+                src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+        </script>
+        <script type="text/javascript">
+            (function(){
+                emailjs.init({
+                    publicKey: "rM2ilbA45jCWLqpOi",
+                });
+            })();
+        </script>
+
+
     </body>
 </html>
