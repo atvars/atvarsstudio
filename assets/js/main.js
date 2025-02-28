@@ -201,17 +201,28 @@ themeButton.addEventListener('click', () => {
   localStorage.setItem('selected-icon', getCurrentIcon());
 });
 
-// Send Email
-var templateParams = {
-  name: 'James',
-  notes: 'Check this out!',
-};
 
-emailjs.send('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', templateParams).then(
-  (response) => {
-    console.log('SUCCESS!', response.status, response.text);
-  },
-  (error) => {
-    console.log('FAILED...', error);
-  }
-);
+
+// Send Email with emailJS
+const btn = document.getElementById("button")
+
+document.getElementById("form").addEventListener("submit", function (event) {
+  event.preventDefault()
+
+  btn.value = "Sending..."
+
+  const serviceID = "service_atvarsstudio"
+  const templateID = "template_contact_form"
+
+  emailjs.sendForm(serviceID, templateID, this).then(
+    () => {
+      btn.value = "Send Email"
+      alert("Sent!")
+    },
+    (err) => {
+      btn.value = "Send Email"
+      alert(JSON.stringify(err))
+    },
+  )
+  document.getElementById("form").reset();
+})

@@ -861,31 +861,30 @@
                         </div>
                     </div>
 
-                    <form action="" class="contact__form grid">
+                    <form class="contact__form grid" id="form">
                         <div class="contact__inputs grid">
                             <div class="contact__content">
-                                <label for="" class="contact__label">Name</label>
+                                <label for="from_name" class="contact__label">Name</label>
                                 <input type="text" class="contact__input" name="from_name">
                             </div>
                             <div class="contact__content">
-                                <label for="" class="contact__label">Email</label>
+                                <label for="from_email" class="contact__label">Email</label>
                                 <input type="email" class="contact__input" name="from_email">
                             </div>
                         </div>
                         <div class="contact__content">
-                            <label for="" class="contact__label">Phone Number</label>
+                            <label for="from_number" class="contact__label">Phone Number</label>
                             <input type="number" class="contact__input" name="from_number">
                         </div>
                         <div class="contact__content">
-                            <label for="" class="contact__label">Message</label>
-                            <textarea name="message" id="" cols="0" rows="7" class="contact__input"></textarea>
+                            <label for="message" class="contact__label">Message</label>
+                            <textarea name="message" id="message" cols="0" rows="7" class="contact__input"></textarea>
                         </div>
                         
                         <div>
-                            <a href="#" class="button button--flex">
-                                Send Message
-                                <i class="uil uil-message button__icon"></i>
-                            </a>
+                            <input type="submit" id="button" value="Send Message" class="button button--flex uil uil-message button__icon">
+                                <!-- Send Message
+                                <i class="uil uil-message button__icon"></i> -->
                         </div>
                     </form>
                 </div>
@@ -951,14 +950,10 @@
         <script type="text/javascript"
                 src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
         </script>
-        <script type="text/javascript">
-            (function(){
-                emailjs.init({
-                    publicKey: "rM2ilbA45jCWLqpOi",
-                });
-            })();
-        </script>
 
+        <script type="text/javascript">
+                emailjs.init("rM2ilbA45jCWLqpOi");
+        </script>
 
     </body>
 </html>
