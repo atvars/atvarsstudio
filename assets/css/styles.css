@@ -204,7 +204,7 @@ img {
 @media screen and (max-width: 767px) {
   .nav__menu {
     position: fixed;
-    bottom: -100%;
+    bottom: 100%;
     left: 0;
     width: 100%;
     background-color: var(--body-color);
@@ -1056,7 +1056,7 @@ img {
 
 /*==================== MEDIA QUERIES ====================*/
 /* For small devices */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .container {
     margin-left: var(--mb-1);
     margin-right: var(--mb-1);
