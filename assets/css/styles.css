@@ -359,7 +359,9 @@ img {
 }
 
 .button:hover {
-  background-color: var(--first-color-alt);
+  background-color: white;
+  color: blue;
+  border: solid 1px blue!important;
 }
 
 .button__icon {
@@ -434,12 +436,12 @@ img {
 
 .about__buttons {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 /*==================== SKILLS ====================*/
 .skills__container {
-  row-gap: 0;
+  row-gap: 0; 
 }
 
 .skills__header {
@@ -674,6 +676,11 @@ img {
 .services__button:hover .button__icon {
   transform: translateX(0.25rem);
 }
+.services__button:hover{
+  border:none!important;
+  padding-left:10px;
+  color: blue;
+}
 
 .services__modal {
   position: fixed;
@@ -905,6 +912,11 @@ img {
   outline: none;
   padding: 0.25rem 0.5rem 0.5rem 0;
 }
+#button{
+  /* width: 100%; */
+  /* margin:auto; */
+  border: none;
+}
 
 /*==================== FOOTER ====================*/
 .footer {
@@ -936,7 +948,7 @@ img {
 }
 
 .footer__link:hover {
-  color: var(--first-color-lighter);
+  color: var(--text-color-light);
 }
 
 .footer__social {
@@ -945,7 +957,7 @@ img {
 }
 
 .footer__social:hover {
-  color: var(--first-color-lighter);
+  color: var(--text-color-light);
 }
 
 .footer__copy {
@@ -1085,6 +1097,18 @@ img {
     border-radius: 0.5rem;
     justify-self: center;
     align-self: center;
+  }
+  #button{
+    /* width: 100%; */
+    /* margin:auto; */
+    border: none;
+  }
+  .button--white{
+    margin-top: 20px;
+  }
+  .portfolio__button{
+    margin-left: 40%;
+
   }
 }
 
