@@ -1044,7 +1044,7 @@ img {
 
 /*==================== MEDIA QUERIES ====================*/
 /* For small devices */
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 768px) {
   .container {
     margin-left: var(--mb-1);
     margin-right: var(--mb-1);
@@ -1079,6 +1079,12 @@ img {
   }
   .project__img {
     width: 200px;
+  }
+  .about__img {
+    width: 200px;
+    border-radius: 0.5rem;
+    justify-self: center;
+    align-self: center;
   }
 }
 
