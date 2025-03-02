@@ -1025,7 +1025,7 @@ img {
 }
 
 .scrollup:hover {
-  background-color: var(--first-color-alt);
+  background-color: var(--text-color-light);
 }
 
 .scrollup__icon {
