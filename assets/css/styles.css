@@ -298,6 +298,7 @@ img {
 
 .home__blob-img {
   width: 170px;
+  filter: brightness(1.30);
 }
 
 .home__data {
@@ -847,6 +848,7 @@ img {
 .project__img {
   width: 232px;
   justify-self: center;
+  filter: brightness(1.30);
 }
 
 /*==================== TESTIMONIAL ====================*/
