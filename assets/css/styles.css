@@ -1065,6 +1065,19 @@ img {
   .nav__menu {
     padding: 2rem 0.25rem 4rem;
   }
+
+    .header{
+      background-color: blue;
+    }
+
+    .nav__logo{
+      color: white;
+    }
+
+    .nav__toggle{
+      color: white;
+    }
+
   .nav__list {
     column-gap: 0;
   }
