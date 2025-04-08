@@ -1074,6 +1074,10 @@ img {
       color: white;
     }
 
+    .nav__logo::after{
+      color: white;
+    }
+
     .nav__toggle{
       color: white;
     }
