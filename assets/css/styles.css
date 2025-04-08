@@ -79,7 +79,7 @@ body.dark-theme {
   align-items: center;
 }
 
-.change-theme {
+/* .change-theme {
   font-size: 1.25rem;
   color: var(--title-color);
   margin-right: var(--mb-1);
@@ -88,7 +88,7 @@ body.dark-theme {
 
 .change-theme:hover {
   color: var(--first-color);
-}
+} */
 
 /*==================== BASE ====================*/
 * {
@@ -1189,9 +1189,9 @@ img {
   .nav__menu {
     margin-left: auto;
   }
-  .change-theme {
+  /* .change-theme {
     margin: 0;
-  }
+  } */
   .home__container {
     row-gap: 5rem;
   }
