@@ -483,7 +483,7 @@ img {
 .skills__titles {
   display: flex;
   justify-content: space-between;
-  margin-bottom: var(--mb-0-5);
+  /* margin-bottom: var(--mb-0-0.5); */
 }
 
 .skills__name {
@@ -491,7 +491,7 @@ img {
   font-weight: var(--font-medium);
 }
 
-.skills__bar,
+/* .skills__bar,
 .skills__percentage {
   height: 5px;
   border-radius: 0.25rem;
@@ -540,7 +540,7 @@ img {
 
 .skills__photoshop {
   width: 75%;
-}
+} */
 
 .skills__close .skills__list {
   height: 0px;
