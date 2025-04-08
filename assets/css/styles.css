@@ -1110,6 +1110,9 @@ img {
     margin-left: 40%;
 
   }
+  #home{
+    padding: 2rem 2rem 0 4rem;
+  }
 }
 
 /* For medium devices */
