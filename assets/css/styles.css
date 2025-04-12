@@ -201,6 +201,13 @@ img {
   color: var(--first-color);
 }
 
+.logo {
+  height: 120px; /* Adjust as needed */
+  width: 150px; /* Maintain aspect ratio */
+  vertical-align: middle; /* Align with other inline elements */
+  max-width: 100%; /* Responsive sizing */
+}
+
 @media screen and (max-width: 767px) {
   .nav__menu {
     position: fixed;
@@ -1064,6 +1071,14 @@ img {
   }
   .nav__menu {
     padding: 2rem 0.25rem 4rem;
+  }
+
+  .logo {
+    height: 50px; /* Adjust as needed */
+    width: 80px; /* Maintain aspect ratio */
+    vertical-align: middle; /* Align with other inline elements */
+    max-width: 100%; /* Responsive sizing */
+    background-color: white
   }
 
     .header{
