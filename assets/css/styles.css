@@ -1184,13 +1184,13 @@ display: none;
     justify-content: center;
   }
 
-  /* .logo {
+  .logo {
     height: 50px; 
     width: 80px; 
     vertical-align: middle; 
     max-width: 100%; 
     background-color: white
-  } */
+  }
 
 }
 
