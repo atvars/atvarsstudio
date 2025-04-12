@@ -1073,8 +1073,16 @@ img {
     padding: 2rem 0.25rem 4rem;
   }
 
-  .logo {
+  /* .logo {
 display: none;
+  } */
+
+    .logo {
+    height: 50px; 
+    width: 80px; 
+    vertical-align: middle; 
+    max-width: 100%; 
+    background-color: white
   }
 
     .header{
