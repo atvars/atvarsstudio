@@ -1074,11 +1074,7 @@ img {
   }
 
   .logo {
-    height: 50px; /* Adjust as needed */
-    width: 80px; /* Maintain aspect ratio */
-    vertical-align: middle; /* Align with other inline elements */
-    max-width: 100%; /* Responsive sizing */
-    background-color: white
+display: none;
   }
 
     .header{
