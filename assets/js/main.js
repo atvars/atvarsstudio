@@ -238,3 +238,8 @@ function showModal(message) {
     }
   };
 }
+
+// Footer year for coppy right
+document.addEventListener('DOMContentLoaded', function() {
+  document.getElementById("currentYear").innerHTML = new Date().getFullYear();
+});
