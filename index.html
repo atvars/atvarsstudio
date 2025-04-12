@@ -10,6 +10,9 @@
         <!--==================== SWIPER CSS====================-->
         <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
 
+        <!--==================== AOS ====================-->
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
         <!--==================== CSS ==========-->
         <link rel="stylesheet" href="assets/css/styles.css">
 
@@ -19,7 +22,7 @@
         <!--==================== HEADER ====================-->
         <header class="header" id="header">
             <nav class="nav container">
-                <a href="#home" class="nav__logo"> Atvars - Studio </a>
+                <a href="#home" class="nav__logo" data-aos="fade-right" data-aos-duration="1000" > Atvars - Studio </a>
 
                 <div class="nav__menu" id="nav-menu">
                     <ul class="nav__list grid">
@@ -90,20 +93,20 @@
                         <div class="home__social">
                             
                             <!-- create and add fb page -->
-                            <a href="https://www.facebook.com/" target="_blank" class="home__social-icon">
+                            <a href="https://www.facebook.com/" target="_blank" class="home__social-icon" data-aos="fade-up-right" data-aos-duration="2500">
                                 <i class="uil uil-facebook-f"></i>
 
-                            <a href="https://www.linkedin.com/in/atvars-velavs/" target="_blank" class="home__social-icon">
+                            <a href="https://www.linkedin.com/in/atvars-velavs/" target="_blank" class="home__social-icon" data-aos="fade-up-left" data-aos-duration="2500" data-aos-delay="200">
                                 <i class="uil uil-linkedin-alt"></i>
                             </a>
     
-                            <a href="https://github.com/atvars" target="_blank" class="home__social-icon">
+                            <a href="https://github.com/atvars" target="_blank" class="home__social-icon" data-aos="fade-up" data-aos-duration="2500" data-aos-delay="400">
                                 <i class="uil uil-github-alt"></i>                            
                             </a>
                         </div>
     
                         <div class="home__img">
-                            <svg class="home__blob" viewBox="0 0 200 187">
+                            <svg class="home__blob" viewBox="0 0 200 187" data-aos="fade-left" data-aos-duration="1000">
                                 <mask id="mask0" mask-type="alpha">
                                     <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
                                     130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
@@ -125,7 +128,7 @@
                             </svg>
                         </div>
 
-                        <div class="home__data">
+                        <div class="home__data"  data-aos="fade-down" data-aos-duration="1000">
                             <h1 class="home__title">Atvars - Studio</h1>
                             <h4 class="home__subtitle">Elevate Your Social Presence</h4>
                             <p class="home__description">Will bring your idea, your passion to life in a digital world.</p>
@@ -148,7 +151,7 @@
 
             <!--==================== ABOUT ====================-->
             <section class="about section" id="about">
-                <h2 class="section__title">About Me</h2>
+                <h2 class="section__title"  data-aos="fade-up" data-aos-duration="1000">About Me</h2>
                 <!-- delete? -->
                 <!-- <span class="section__subtitle">My introduction</span> -->
 
@@ -173,7 +176,7 @@
                                 speed and visibility of your website.</p>
                         <!-- </p> -->
 
-                        <div class="about__info">
+                        <div class="about__info"  data-aos="fade-up" data-aos-duration="1000">
                             <div>
                                 <span class="about__info-title">3+</span>
                                 <span class="about__info-name">Years <br> experience</span>
@@ -190,13 +193,13 @@
                             </div>
                         </div>
                         <div class="about__info">
-                            <div class="about__buttons">
+                            <div class="about__buttons" data-aos="flip-left" data-aos-duration="2000" data-aos-delay="400">
                                 <!--==================== Change your CV ====================-->
                                 <a download="" href="assets/pdf/CV.pdf" class="button button--flex">
                                     Download CV
                                 </a>
                             </div>
-                            <div class="about__buttons">
+                            <div class="about__buttons" data-aos="flip-right" data-aos-duration="2000" data-aos-delay="400">
                                 <!--==================== Change your CV ====================-->
                                 <a download="" href="assets/pdf/Diploma.pdf" class="button button--flex">
                                     My Diploma
@@ -209,7 +212,7 @@
 
             <!--==================== SKILLS ====================-->
             <section class="skills section" id="skills">
-                <h2 class="section__title">Skills</h2>
+                <h2 class="section__title" data-aos="fade-up" data-aos-duration="1000">Skills</h2>
                 <!-- delete? -->
                 <!-- <span class="section__subtitle">My technical level</span> -->
 
@@ -370,7 +373,7 @@
 
             <!--==================== QUALIFICATION ====================-->
             <section class="qualification section">
-                <h2 class="section__title">Qualification</h2>
+                <h2 class="section__title" data-aos="fade-up" data-aos-duration="1000">Qualification</h2>
                 <!-- delete? -->
                 <!-- <span class="section__subtitle">My personal journey</span> -->
 
@@ -542,13 +545,13 @@
 
             <!--==================== SERVICES ====================-->
             <section class="services section" id="services">
-                <h2 class="section__title">Services</h2>
+                <h2 class="section__title" data-aos="fade-up" data-aos-duration="1000">Services</h2>
                 <!-- delete? -->
                 <!-- <span class="section__subtitle">What i offer</span> -->
 
                 <div class="services__container container grid">
                     <!--=============== SERVICES 1 ===============-->
-                    <div class="services__content">
+                    <div class="services__content" data-aos="flip-right" data-aos-duration="2000">
                         <div>
                              <h2 class="services__type">Basic</h2>
                             <h3 class="services__title">Starting from<br><span class="price">£199.99</span></h3>
@@ -612,7 +615,7 @@
                     </div>
 
                     <!--=============== SERVICES 2 ===============-->
-                    <div class="services__content">
+                    <div class="services__content" data-aos="flip-right" data-aos-duration="2000" data-aos-delay="400">
                         <div>
                             <h2 class="services__type">Standard</h2>
                            <h3 class="services__title">Starting from<br><span class="price">£599.99</span></h3>
@@ -689,7 +692,7 @@
                     </div>
 
                     <!--=============== SERVICES 3 ===============-->
-                    <div class="services__content">
+                    <div class="services__content" data-aos="flip-right" data-aos-duration="2000" data-aos-delay="800">
                         <div>
                             <h2 class="services__type">Premium</h2>
                            <h3 class="services__title">Starting from<br><span class="price">£1299.99</span></h3>
@@ -773,17 +776,17 @@
 
             <!--====================LIVE PORTFOLIO ====================-->
             <section class="portfolio section" id="portfolio">
-                <h2 class="section__title">Live Project Portfolio</h2>
+                <h2 class="section__title" data-aos="fade-up" data-aos-duration="1000">Live Project Portfolio</h2>
                 <!-- delte? -->
                 <!-- <span class="section__subtitle">Most recent work</span> -->
 
-                <div class="portfolio__container container swiper-container">
+                <!-- <div class="portfolio__container container swiper-container"> -->
                     <!-- <div class="swiper-wrapper"> -->
                         <!--=============== PORTFOLIO 1 ===============-->
                         <!-- <div class="portfolio__content grid swiper-slide"> -->
                             <!-- <img src="assets/img/portfolio2.jpg" alt="portfolio demo nr1" class="portfolio__img"> -->
     
-                            <div class="portfolio__data">
+                            <div class="portfolio__data container"> <!-- Remove container class -->
                                 <!-- <h3 class="portfolio__title">Modern Website</h3> -->
                                 <p class="portfolio__description">Projects to be added soon.</p>
                                 <!-- <a href="#" class="button button--flex button--small portfolio__button">
@@ -819,23 +822,23 @@
                                 </a>
                             </div>
                         </div> -->
-                    </div>
+                    <!-- </div> -->
 
-                    <div class="swiper-button-next">
+                    <!-- <div class="swiper-button-next">
                         <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
                     </div>
                     <div class="swiper-button-prev">
                         <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
                     </div>
 
-                    <div class="swiper-pagination"></div>
+                    <div class="swiper-pagination"></div> -->
                 </div>
             </section>
 
 
              <!--==================== PORTFOLIO ====================-->
              <section class="portfolio section" id="portfolio">
-                <h2 class="section__title">Demo Project Portfolio</h2>
+                <h2 class="section__title" data-aos="fade-up" data-aos-duration="1000">Demo Project Portfolio</h2>
                 <!-- delte? -->
                 <!-- <span class="section__subtitle">Most recent work</span> -->
 
@@ -866,8 +869,8 @@
                                     Demo
                                 </a>
                             </div>
-                        </div>
-     -->
+                        </div> -->
+    
                         <!--=============== PORTFOLIO 3 ===============-->
                         <!-- <div class="portfolio__content grid swiper-slide">
                             <img src="assets/img/portfolio3.jpg" alt="portfolio demo nr3" class="portfolio__img">
@@ -895,7 +898,7 @@
             </section>
 
             <!--==================== PROJECT IN MIND ====================-->
-            <section class="project section">
+            <section class="project section" data-aos="zoom-in-down" data-aos-duration="3000">
                 <div class="project__bg">
                     <div class="project__container container grid">
                         <div class="project__data">
@@ -915,7 +918,7 @@
             <!--==================== TESTIMONIAL ====================-->
 
             <section class="testimonial_section" id="testimonials">
-                <h2 class="section__title">Testimonial</h2>
+                <h2 class="section__title" data-aos="fade-up" data-aos-duration="1000">Testimonial</h2>
 
                 <div data-romw-token="xKAFlM9CbeB7d7ASkgwbQLlCIpATfRGdTesLFx8fftx1cTmLRk"></div>
                      
@@ -923,12 +926,12 @@
 
             <!--==================== CONTACT ME ====================-->
             <section class="contact section" id="contact">
-                <h2 class="section__title">Contact Me</h2>
+                <h2 class="section__title" data-aos="fade-up" data-aos-duration="2000">Contact Me</h2>
                 <!-- delete? -->
                 <!-- <span class="section__subtitle">Get in touch</span> -->
 
                 <div class="contact__container container grid">
-                    <div>
+                    <div  data-aos="fade-right" data-aos-duration="2000">
                         <div class="contact__information">
                             <i class="uil uil-phone contact__icon"></i>
                             <div>
@@ -954,7 +957,7 @@
                         </div>
                     </div>
 
-                    <form class="contact__form grid" id="form">
+                    <form class="contact__form grid" id="form" data-aos="fade-left" data-aos-duration="2000">
                         <div class="contact__inputs grid">
                             <div class="contact__content">
                                 <label for="from_name" class="contact__label">Name</label>
@@ -1038,6 +1041,12 @@
 
         <!--==================== SWIPER JS ====================-->
         <script src="assets/js/swiper-bundle.min.js"></script>
+
+        <!--==================== AOS ====================-->
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+          AOS.init();
+        </script>
 
         <!--==================== MAIN JS ====================-->
         <script src="assets/js/main.js"></script>
